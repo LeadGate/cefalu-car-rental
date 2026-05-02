@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import AffiliateWidget from "@/components/AffiliateWidget";
 import SEOHead from "@/components/SEOHead";
 import HeroSection from "@/components/HeroSection";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -24,7 +25,7 @@ const DrivingGuide = () => {
         "@type": "ListItem",
         "position": 2,
         "name": "Driving Tips",
-        "item": "https://cefalu-car-rental.com/driving-in-cefalu"
+        "item": "https://cefalu-car-rental.com/driving-in-cefalu/"
       }
     ]
   };
@@ -70,6 +71,7 @@ const DrivingGuide = () => {
         ctaText="Compare Car Rental Deals"
         ctaHref="#compare"
       />
+    <AffiliateWidget />
 
       <Section
         icon={<Shield className="w-6 h-6" />}

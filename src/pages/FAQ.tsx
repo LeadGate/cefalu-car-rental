@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import AffiliateWidget from "@/components/AffiliateWidget";
 import SEOHead from "@/components/SEOHead";
 import HeroSection from "@/components/HeroSection";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -21,7 +22,7 @@ const FAQ = () => {
         "@type": "ListItem",
         "position": 2,
         "name": "FAQ",
-        "item": "https://cefalu-car-rental.com/cefalu-car-rental-faq"
+        "item": "https://cefalu-car-rental.com/cefalu-car-rental-faq/"
       }
     ]
   };
@@ -157,6 +158,7 @@ const FAQ = () => {
         ctaText="Compare Car Rental Deals"
         ctaHref="#compare"
       />
+    <AffiliateWidget />
 
       
       <section className="container max-w-4xl py-6">

@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import AffiliateWidget from "@/components/AffiliateWidget";
 import SEOHead from "@/components/SEOHead";
 import HeroSection from "@/components/HeroSection";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -23,7 +24,7 @@ const DayTrips = () => {
         "@type": "ListItem",
         "position": 2,
         "name": "Day Trips",
-        "item": "https://cefalu-car-rental.com/day-trips-from-cefalu"
+        "item": "https://cefalu-car-rental.com/day-trips-from-cefalu/"
       }
     ]
   };
@@ -69,6 +70,7 @@ const DayTrips = () => {
         ctaText="Compare Car Rental Deals"
         ctaHref="#compare"
       />
+    <AffiliateWidget />
 
       <Section
         icon={<Car className="w-6 h-6" />}

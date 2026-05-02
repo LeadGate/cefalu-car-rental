@@ -23,7 +23,7 @@ const AboutWhoWeAre = () => {
         "@type": "ListItem",
         "position": 2,
         "name": "About",
-        "item": "https://cefalu-car-rental.com/about"
+        "item": "https://cefalu-car-rental.com/about/"
       }
     ]
   };

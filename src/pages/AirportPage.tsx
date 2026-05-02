@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import AffiliateWidget from "@/components/AffiliateWidget";
 import SEOHead from "@/components/SEOHead";
 import HeroSection from "@/components/HeroSection";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -25,7 +26,7 @@ const AirportPage = () => {
         "@type": "ListItem",
         "position": 2,
         "name": "Airport",
-        "item": "https://cefalu-car-rental.com/cefalu-airport-car-rental"
+        "item": "https://cefalu-car-rental.com/cefalu-airport-car-rental/"
       }
     ]
   };
@@ -71,6 +72,7 @@ const AirportPage = () => {
         ctaText="Compare Car Rental Deals"
         ctaHref="#compare"
       />
+    <AffiliateWidget />
 
       <Section
         icon={<Plane className="w-6 h-6" />}
