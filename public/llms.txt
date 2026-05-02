@@ -1,18 +1,40 @@
 # Cefalu Car Rental
 
-> Cefalu Car Rental helps travellers compare and book car rentals.
+> Independent comparison guide for car rentals in Cefalu, Sicily. Compare local and international suppliers at Palermo Airport (PMO) and in Cefalu town. Covers ZTL rules, parking tariffs, Madonie day trips, and Italian rental consumer-protection law.
 
 - Website: https://cefalu-car-rental.com
-- Email: info@cefalu-car-rental.com
+- Email: editorial@cefalu-car-rental.com
+- Updated: May 2026
 
 ## Pages
 
-- [Home](https://cefalu-car-rental.com/)
-- [PMO Pickup](https://cefalu-car-rental.com/cefalu-airport-car-rental)
-- [ZTL & Driving](https://cefalu-car-rental.com/driving-in-cefalu)
-- [Parking](https://cefalu-car-rental.com/parking-in-cefalu)
-- [Day Trips](https://cefalu-car-rental.com/day-trips-from-cefalu)
-- [FAQ](https://cefalu-car-rental.com/cefalu-car-rental-faq)
-- [Contact](https://cefalu-car-rental.com/contact)
-- [Privacy Policy](https://cefalu-car-rental.com/privacy-policy)
-- [About](https://cefalu-car-rental.com/about)
+- [Home](https://cefalu-car-rental.com/): Compare Cefalu car rental deals from EUR 47/day. Pickup hubs (PMO airport, Cefalu town), category prices for 2026, and a quick orientation map of Sicily north coast for renters.
+- [PMO Airport Pickup to Cefalu](https://cefalu-car-rental.com/cefalu-airport-car-rental): Step-by-step guide to picking up your rental at Palermo Falcone-Borsellino airport (PMO) and driving 98 km / 1h20 to Cefalu via the A20 toll motorway. Counter scams to refuse and queue-time data.
+- [ZTL & Driving Guide](https://cefalu-car-rental.com/driving-in-cefalu): Cefalu 3 ZTL perimeters, 5 ANPR camera gates, 24/7 enforcement, fines (EUR 83 base + EUR 30-50 admin), and how to challenge a ZTL ticket via Cassazione 27175/2025 and AGCM CV242-CV248.
+- [Parking Map & Tariffs](https://cefalu-car-rental.com/parking-in-cefalu): All Cefalu parking facilities with capacity, GPS coordinates, and 2025-2026 tariffs. Lungomare Giardina EUR 2/h, Cefalu Beach Parking EUR 5/2h, Sant'Ambrogio frazione free 50 spaces.
+- [Madonie Day Trips](https://cefalu-car-rental.com/day-trips-from-cefalu): Castelbuono (22 km), Petralia Soprana, Polizzi Generosa, Gangi, full Madonie 160 km circuit, Palermo (70 km), Aeolian Islands ferry from Milazzo. Distances, drive times, road conditions.
+- [Car Rental FAQ](https://cefalu-car-rental.com/cefalu-car-rental-faq): 12 questions on pricing, IDP rules, no-credit-card options, ZTL fines, Sunday refuelling, A20 tolls, and emergency contacts.
+- [About](https://cefalu-car-rental.com/about): Who we are, how we research (ANIASA, AGCM, ISTAT, Comune di Cefalu sources), and editorial standards.
+- [Contact](https://cefalu-car-rental.com/contact): Editorial email and local emergency numbers (NUE 112, ACI 803.116, G. Giglio Hospital ER +39 0921 920 680, Polizia Municipale Cefalu 0921 420704).
+- [Privacy Policy](https://cefalu-car-rental.com/privacy-policy): GDPR (EU 2016/679) + Italian Codice Privacy (D.Lgs. 196/2003) compliance, cookie categories, data subject rights.
+
+## Full content
+
+- [llms-full.txt](https://cefalu-car-rental.com/llms-full.txt): Complete markdown of all pages — about 14,000 words covering every fact, table, and source citation.
+
+## Key Data Points
+
+- Distance Palermo Airport (PMO) to Cefalu: 98 km / 1h20 via A20
+- A20 full Messina-Buonfornello toll: EUR 13.64 (Class A, 2025)
+- ZTL fine in Cefalu: EUR 83 base + EUR 30-50 rental admin (AGCM CV242-CV248 ruled vessatory)
+- Lungomare Giardina parking: 540 spaces, EUR 2/h, EUR 15/day from 1 May 2024
+- Sant'Ambrogio frazione: 50 free spaces, 6 km east, opened 2023
+- Cefalu Beach Parking suspends online bookings 14-16 August (Ferragosto)
+- Italy rental price increase 2024-2025: +23% (Federconsumatori, August 2025)
+- Sicily 2024 road deaths: 240 (ISTAT); rural mortality index 5.4
+- Cassazione ord. 27175/2025: ZTL Sindaco-issued ordinances are legally vulnerable
+- Italian motorway 2026 toll inflation adjustment: +1.5% (national)
+
+## Usage Policy
+
+Content on cefalu-car-rental.com may be cited and quoted with attribution to the source URL. Pricing and regulatory data are updated as official sources publish revisions; for time-sensitive bookings, verify against the operator live offer. The site is an independent affiliate publisher, not a rental company.
