@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cefalu-car-rental.com/sitemap.xml

@@ -1,0 +1,18 @@
+# Cefalu Car Rental
+
+> Cefalu Car Rental helps travellers compare and book car rentals.
+
+- Website: https://cefalu-car-rental.com
+- Email: info@cefalu-car-rental.com
+
+## Pages
+
+- [Home](https://cefalu-car-rental.com/)
+- [PMO Pickup](https://cefalu-car-rental.com/cefalu-airport-car-rental)
+- [ZTL & Driving](https://cefalu-car-rental.com/driving-in-cefalu)
+- [Parking](https://cefalu-car-rental.com/parking-in-cefalu)
+- [Day Trips](https://cefalu-car-rental.com/day-trips-from-cefalu)
+- [FAQ](https://cefalu-car-rental.com/cefalu-car-rental-faq)
+- [Contact](https://cefalu-car-rental.com/contact)
+- [Privacy Policy](https://cefalu-car-rental.com/privacy-policy)
+- [About](https://cefalu-car-rental.com/about)
