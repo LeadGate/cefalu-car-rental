@@ -187,7 +187,7 @@ const ParkingInCefalWhereHowMuchHowLong = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">If you are planning more than parking, the right rental can save money on both road access and trip logistics: a small car is usually enough for Cefalù’s core streets, while larger vehicles like a Renault Trafic or Ford Transit Connect make sense only for group itineraries.</p>
           <p className="text-gray-700 mb-4 leading-relaxed"><strong>Ready to compare rentals for Cefalù?</strong> Check availability from the homepage and choose the car that fits your parking plan, your route via PMO or CTA, and your mileage budget.</p>
       </Section>
-      <div className="flex justify-center pb-12">
+      <div className="flex justify-center py-16 mt-8">
         <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
       </div>
     </Layout>

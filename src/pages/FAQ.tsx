@@ -164,7 +164,8 @@ const FAQ = () => {
       <section className="container max-w-4xl py-6">
         <p className="text-gray-700 leading-relaxed">The 12 questions below cover pricing, pickup, fines, parking, and emergencies for your Cefalù rental. For background, see our <a href="/cefalu-airport-car-rental" className="text-primary underline hover:text-accent">PMO airport pickup guide</a>, the <a href="/driving-in-cefalu" className="text-primary underline hover:text-accent">ZTL and driving rules</a>, and the <a href="/parking-in-cefalu" className="text-primary underline hover:text-accent">Cefalù parking map</a>.</p>
       </section>
-      <FAQSection
+      <section className="container max-w-4xl py-10">
+        <FAQSection
         items={[
           { question: "1. Do I actually need a car in Cefalù?", answer: "For Cefalù old town, a car is unnecessary; for reaching the Madonie, the answer is yes. The UNESCO Cefalù Cathedral, Piazza Duomo, Corso Ruggero, Via Vittorio Emanuele, and the Mandralisca museum are all walkable, while mountain villages such as Castelbuono, Pollina, Tusa, Collesano, and Petralia Soprana are far easier by car. A practical day-trip radius from Cefalù includes the Rocca di Cefalù, Sant'Ambrogio frazione, and the SS113 coastal route toward San Nicola l'Arena and Trabia. Public transport exists, but the ACI and ISTAT tourism patterns consistently show that self-drive travel gives more flexibility for beaches, museums, and hill towns." },
           { question: "2. Where do I pick up the car? In Cefalù or at the airport?", answer: "Palermo Airport PMO is usually the best pickup point because it offers the widest fleet, while Cefalù town mainly suits short local stays. At PMO, you can compare Hertz Italiana, Avis Budget Italia, Europcar, Locauto, Noleggiare, Centauro, Green Motion, Maggiore, Smile Rent, Joyrent, Italy Car Rent, Karym Rent, and Auto Europe broker offers before choosing." },
@@ -181,7 +182,8 @@ const FAQ = () => {
           { question: "Ready to Find Your Perfect Ride?", answer: "Cefalù car rental prices move quickly, so the best comparison is the one that checks vehicle class, insurance level, pickup point, and deposit amount in the same search. Use a broker or direct supplier list, compare full terms, and reserve only after confirming the excess, mileage, and card rules in writing. <a href=\"/cefalu-car-rental-faq\" className=\"text-primary underline hover:text-accent\">Search Cefalù car rental deals</a>" }
         ]}
       />
-      <div className="flex justify-center pb-12">
+      </section>
+      <div className="flex justify-center py-16 mt-8">
         <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
       </div>
     </Layout>

@@ -180,7 +180,7 @@ const DayTrips = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">The value of a car in Cefalù is measured in route freedom, not just rental price, because a €38/day compact with CDW can be the difference between one fixed hotel and a flexible loop through the Madonie, Palermo, and the Tyrrhenian coast. Auto Europe as a broker can help compare offers, but the final rental contract still needs the same checks on excess/deductible, franchise, and insurance scope.</p>
           <p className="text-gray-700 mb-4 leading-relaxed"><strong><a href="/" className="text-primary underline hover:text-accent">Compare local car rental options for Cefalù road trips →</a></strong></p>
       </Section>
-      <div className="flex justify-center pb-12">
+      <div className="flex justify-center py-16 mt-8">
         <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
       </div>
     </Layout>

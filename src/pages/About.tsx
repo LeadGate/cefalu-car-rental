@@ -7,7 +7,7 @@ import ImageDivider from "@/components/ImageDivider";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
 import { Car } from "lucide-react";
 
-const AboutWhoWeAre = () => {
+const About = () => {
   const breadcrumbSchema =
   {
     "@context": "https://schema.org",
@@ -23,7 +23,7 @@ const AboutWhoWeAre = () => {
         "@type": "ListItem",
         "position": 2,
         "name": "About",
-        "item": "https://cefalu-car-rental.com/about/"
+        "item": "https://cefalu-car-rental.com/about"
       }
     ]
   };
@@ -66,8 +66,6 @@ const AboutWhoWeAre = () => {
         subtitle={<><p>Cefalù-Car-Rental.com is a comparison site for car hire in Cefalù, with a practical focus on pricing, insurance, and pickup logistics for travellers arriving via PMO (Falcone-Borsellino), Catania CTA, Trapani TPS, or Comiso CIY. The site also helps drivers plan routes on the A20 (Buonfornello–Messina, CAS-operated, paper-ticket toll), the A19 (Palermo–Catania, ANAS, free), and the SS113 coastal road toward the Madonie and the Tirreno coast.</p></>}
         image="/8.webp"
         imageAlt="Car rental in Cefalu"
-        ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
       />
 
       <Section
@@ -88,12 +86,6 @@ const AboutWhoWeAre = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">The comparison is also useful for airport-to-town drivers who want to use the A20 from PMO, the A19 from Palermo, or the SS113 coastal road from Termini Imerese, Trabia, San Nicola l'Arena, Pollina, and Tusa. A route via the A20 can be quicker but may include a paper-ticket toll, while the A19 is free and often better for travellers who prefer predictable costs.</p>
           <WarningBox><p>⚠️ <strong>Warning:</strong> If an agency advertises zero excess or full coverage, verify whether the policy excludes windscreen, tyres, underbody, or roadside assistance, because a vessatory clause under Codice del Consumo art. 33 c.1 can make a one-sided exclusion hard to notice at checkout.</p></WarningBox>
       </Section>
-
-      <div className="flex justify-center py-6">
-        <a href="/" className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-primary-foreground font-semibold shadow-md hover:opacity-90 transition">
-          Compare Car Rental Deals
-        </a>
-      </div>
 
       <ImageDivider src="/2.webp" alt="Cefalu car rental" />
 
@@ -126,32 +118,9 @@ const AboutWhoWeAre = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">The site also surfaces practical details such as whether a supplier offers a Zero Excess add-on, what the excess/deductible is, whether a credit-card preauthorisation is required, and whether pickup is available at PMO, Catania CTA, Trapani TPS, or Comiso CIY. If a supplier has a city office in Cefalù, the listing should show the address, opening hours, and any airport transfer fee.</p>
       </Section>
 
-      <div className="flex justify-center py-6">
-        <a href="/" className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-primary-foreground font-semibold shadow-md hover:opacity-90 transition">
-          Compare Car Rental Deals
-        </a>
-      </div>
-
-      <Section
-        icon={<Car className="w-6 h-6" />}
-        title="Ready to compare cars for Cefalù?"
-        alt
-      >
-          <p className="text-gray-700 mb-4 leading-relaxed">Cefalù-Car-Rental.com is built for travellers who want clear prices, local context, and enough detail to choose the right vehicle without reading dozens of separate policy pages. The site gives you the basics for a short stay in Cefalù old town, a coastal drive along the Tirreno coast, or a longer trip into the Madonie National Park, and it does so with the route, insurance, and authority details that matter in real-world use.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">If you are ready to start, compare offers on the homepage and review the pickup point, excess, and coverage terms before you book.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed"><strong><a href="/" className="text-primary underline hover:text-accent">▶ Start your search on the homepage</a></strong></p>
-      </Section>
-
-      <div className="flex justify-center py-6">
-        <a href="/" className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-primary-foreground font-semibold shadow-md hover:opacity-90 transition">
-          Compare Car Rental Deals
-        </a>
-      </div>
-      <div className="flex justify-center pb-12">
-        <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
-      </div>
+      
     </Layout>
   );
 };
 
-export default AboutWhoWeAre;
+export default About;

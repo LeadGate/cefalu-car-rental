@@ -204,7 +204,7 @@ const AirportPage = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">If you are staying only in Cefalù old town, walking may be enough, but a car helps when your hotel is outside the centre, your flight arrives late at PMO, or you want to move between the SS113 coastal road and mountain villages on the same day.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> Compare pickup at PMO, a town office near Piazza Marina or Via Vittorio Emanuele, and a broker quote from Auto Europe before booking, because the cheapest daily rate is not always the lowest total once deposit, tolls, and parking are included.</p></InfoBox>
       </Section>
-      <div className="flex justify-center pb-12">
+      <div className="flex justify-center py-16 mt-8">
         <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
       </div>
     </Layout>
