@@ -74,7 +74,7 @@ const Footer = () => (
           This site contains affiliate links. We may earn a commission when you book through our partners at no extra cost to you.
         </p>
         <p className="text-muted-foreground mb-2" style={{ fontSize: '12px' }}>
-          Last updated: May 2026
+          Last updated: 2026-05-02
         </p>
         <div className="flex flex-wrap gap-4 items-center text-sm">
           <span>&copy; {new Date().getFullYear()} cefalu-car-rental.com</span>
