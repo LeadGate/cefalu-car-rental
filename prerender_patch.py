@@ -57,6 +57,11 @@ DIST = Path(__file__).parent / 'dist'
 def patch(html: str, route: str, title: str, desc: str) -> str:
     canonical = SITE + (route if route != '/' else '/')
 
+    # boss-prerender marker (Council 2026-05-04 Phase 1) — tells SEOHead.tsx prerender is
+    # authoritative for head; Helmet skips canonical/meta-desc/og:url/JSON-LD. Idempotent.
+    html = re.sub(r'\s*<meta\s+name="boss-prerender"[^>]*/?>\s*', '\n    ', html)
+    html = html.replace('</title>', '</title>\n    <meta name="boss-prerender" content="head-authoritative" />', 1)
+
     html = re.sub(r'<title>[^<]*</title>', f'<title>{title}</title>', html, count=1)
 
     if re.search(r'<meta\s+name="description"', html):
