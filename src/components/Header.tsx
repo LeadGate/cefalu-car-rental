@@ -17,7 +17,8 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <nav className="sticky top-0 z-50 bg-background border-b border-border">
+    <>
+      <nav className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="container-wide flex items-center justify-between h-16">
         <Link to="/" className="text-xl font-bold text-primary">
           Cefalu Car Rental
@@ -52,6 +53,7 @@ const Header = () => {
       </div>
 
       {/* Mobile overlay */}
+      </nav>
       {open && (
         <div className="lg:hidden fixed inset-0 top-16 z-40 bg-background">
           <ul className="flex flex-col p-6 gap-2">
@@ -73,7 +75,7 @@ const Header = () => {
           </ul>
         </div>
       )}
-    </nav>
+    </>
   );
 };
 
