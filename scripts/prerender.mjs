@@ -62,8 +62,17 @@ function replaceOrInsert(html, regex, insertValue, headInsert) {
   return html.replace(/<\/head>/, `${headInsert}\n  </head>`);
 }
 
-function patchHead(html, { slug, canonical, title, description }) {
+function patchHead(html, { slug, canonical, title, description, isHome }) {
   const descAttr = escAttr(description);
+  // boss-prerender marker — signals SEOHead.tsx that prerender owns the head,
+  // so Helmet must skip canonical/og:url/description/JSON-LD writes (avoids
+  // hydration override with stale page-level canonical props).
+  html = replaceOrInsert(
+    html,
+    /<meta name="boss-prerender" content="[^"]*"\s*\/?>/,
+    `<meta name="boss-prerender" content="1" />`,
+    `    <meta name="boss-prerender" content="1" />`,
+  );
   // Canonical — replace or insert
   html = replaceOrInsert(
     html,
@@ -129,7 +138,22 @@ for (const loc of locs) {
     continue;
   }
   const slug = url.pathname;
-  if (slug === '/' || slug === '') continue; // Home stays as dist/index.html
+  const isHome = slug === '/' || slug === '';
+
+  if (isHome) {
+    // Patch dist/index.html in-place: inject boss-prerender marker + canonical
+    // (homepage previously had no static canonical → Helmet wrote it post-hydration).
+    const patched = patchHead(indexHtml, {
+      slug: '/',
+      canonical: loc,
+      title: fullTitle,
+      description: origDesc,
+      isHome: true,
+    });
+    fs.writeFileSync(path.join(DIST, 'index.html'), patched);
+    count += 1;
+    continue;
+  }
 
   const outDir = path.join(DIST, slug.replace(/^\//, '').replace(/\/$/, ''));
   fs.mkdirSync(outDir, { recursive: true });
@@ -137,9 +161,9 @@ for (const loc of locs) {
   const slugTitle = slugToTitle(slug);
   const title = `${slugTitle} | ${brand}`;
   const description = buildDesc(slugTitle);
-  const patched = patchHead(indexHtml, { slug, canonical: loc, title, description });
+  const patched = patchHead(indexHtml, { slug, canonical: loc, title, description, isHome: false });
   fs.writeFileSync(path.join(outDir, 'index.html'), patched);
   count += 1;
 }
 
-console.log(`[prerender] generated ${count} per-route index.html files`);
+console.log(`[prerender] generated ${count} per-route index.html files (incl. homepage)`);
