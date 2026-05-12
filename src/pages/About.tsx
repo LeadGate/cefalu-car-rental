@@ -67,6 +67,9 @@ const About = () => {
         image="/8.webp"
         imageAlt="Car rental in Cefalu"
       />
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          <strong>cefalu-car-rental.com is an independent car rental booking guide</strong> for Cefalu. <strong>cefalu-car-rental.com does not own vehicles, operate a rental office, hold deposits, or issue rental contracts.</strong> All bookings, supplier conditions, deposits, insurance terms and final prices are handled by the booking partner or rental supplier shown in the booking widget.
+        </p>
 
       <Section
         icon={<Car className="w-6 h-6" />}
