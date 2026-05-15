@@ -10,10 +10,10 @@ import { Search } from "lucide-react";
 // - 8s descendant-count failure detector (widget renders via <div>+<a> only,
 //   so iframe/input/button/form selectors do NOT work)
 const WIDGET_SRC =
-  "https://tpembd.com/content?trs=517071&shmarker=713621.cefalu&powered_by=true&country=13&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
+  "https://tpembd.com/content?trs=517071&shmarker=713621.cefalu&powered_by=true&country=13&city=89941&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
 
-const FALLBACK_URL = "https://www.localrent.com/en/italy/cefalu/?marker=713621.cefalu";
-const FALLBACK_LABEL = "Or browse all Cefalu rentals on Localrent →";
+const FALLBACK_URL = "https://www.localrent.com/en/italy/palermo/?marker=713621.cefalu";
+const FALLBACK_LABEL = "Or browse Palermo rentals on Localrent →";
 
 const AffiliateWidget = () => {
   const containerRef = useRef<HTMLDivElement>(null);
