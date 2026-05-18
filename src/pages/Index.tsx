@@ -87,7 +87,7 @@ const Index = () => {
       >
           <p className="text-gray-700 mb-4 leading-relaxed">For most travelers, PMO is the best-value collection point because Palermo Airport has the broadest supply of rental desks, including Drivalia at Arrival Hall Level 0, Goldcar at PMO, Hertz Italiana, Avis Budget Italia, Europcar, Locauto, Noleggiare, Centauro, Green Motion, Maggiore, and others. Drivalia’s public PMO kiosk and phone number (+39 091 6511393) make it a practical airport counter when you want immediate pickup after landing.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">Cefalù town pickup can work if you want to start in the old town, but the choice is smaller and the vehicle mix is tighter. Local operators in the Cefalù area include Safe Car Rental Cefalù in Cortile O 1 with +39 380 787 1992 / +39 345 820 1316 and booking@screntalcar.com, AFFITTULA on Via Roma 109 with +39 0921 820124, Rent Me Now! / G.F.C. Noleggio on Via Giubileo Magno 15 with +39 388 775 5781, and Bringo in Carini PA (P.IVA 07307610829).</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">If PMO is not convenient, Catania CTA, Trapani TPS, and Comiso CIY may fit a wider island itinerary, but Cefalù arrivals usually save time by booking in Palermo and driving north on the A20 or A19. For step-by-step airport guidance, see <a href="/cefalu-airport-car-rental" className="text-primary underline hover:text-accent">Palermo Airport pickup to Cefalù</a>.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">If PMO is not convenient, Catania CTA, Trapani TPS, and Comiso CIY may fit a wider island itinerary, but Cefalù arrivals usually save time by booking in Palermo and driving north on the A20 or A19. For step-by-step airport guidance, see <a href="/cefalu-airport-car-rental/" className="text-primary underline hover:text-accent">Palermo Airport pickup to Cefalù</a>.</p>
       </Section>
 
       <ImageDivider src="/2.webp" alt="Cefalu car rental" />
@@ -124,7 +124,7 @@ const Index = () => {
             <li><strong>Avoid unnecessary one-way routing:</strong> Returning the car where you picked it up is often cheaper than separate drop-off handling.</li>
             <li><strong>Use one main driver:</strong> Every extra driver can add a daily charge, so add a second driver only if the trip really needs it.</li>
           </ul>
-          <p className="text-gray-700 mb-4 leading-relaxed">For a broader savings guide, compare live rates with <a href="/parking-in-cefalu" className="text-primary underline hover:text-accent">parking in Cefalù</a> and the practical route advice in <a href="/day-trips-from-cefalu" className="text-primary underline hover:text-accent">Madonie day trips from Cefalù</a>.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">For a broader savings guide, compare live rates with <a href="/parking-in-cefalu/" className="text-primary underline hover:text-accent">parking in Cefalù</a> and the practical route advice in <a href="/day-trips-from-cefalu/" className="text-primary underline hover:text-accent">Madonie day trips from Cefalù</a>.</p>
       </Section>
 
       <Section

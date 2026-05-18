@@ -81,7 +81,7 @@ const Footer = () => (
         </p>
         <div className="flex flex-wrap gap-4 items-center text-sm">
           <span>&copy; {new Date().getFullYear()} cefalu-car-rental.com</span>
-          <Link to="/privacy" className="hover:text-primary-foreground transition-colors">
+          <Link to="/privacy/" className="hover:text-primary-foreground transition-colors">
             Privacy Policy
           </Link>
         </div>

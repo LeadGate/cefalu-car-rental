@@ -162,7 +162,7 @@ const FAQ = () => {
 
       
       <section className="container max-w-4xl py-6">
-        <p className="text-gray-700 leading-relaxed">The 12 questions below cover pricing, pickup, fines, parking, and emergencies for your Cefalù rental. For background, see our <a href="/cefalu-airport-car-rental" className="text-primary underline hover:text-accent">PMO airport pickup guide</a>, the <a href="/driving-in-cefalu" className="text-primary underline hover:text-accent">ZTL and driving rules</a>, and the <a href="/parking-in-cefalu" className="text-primary underline hover:text-accent">Cefalù parking map</a>.</p>
+        <p className="text-gray-700 leading-relaxed">The 12 questions below cover pricing, pickup, fines, parking, and emergencies for your Cefalù rental. For background, see our <a href="/cefalu-airport-car-rental/" className="text-primary underline hover:text-accent">PMO airport pickup guide</a>, the <a href="/driving-in-cefalu/" className="text-primary underline hover:text-accent">ZTL and driving rules</a>, and the <a href="/parking-in-cefalu/" className="text-primary underline hover:text-accent">Cefalù parking map</a>.</p>
       </section>
       <section className="container max-w-4xl py-10">
         <FAQSection

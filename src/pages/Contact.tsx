@@ -102,7 +102,7 @@ const Contact = () => {
       </Section>
     
       <section className="container max-w-4xl py-6">
-        <p className="text-gray-700 leading-relaxed">For pre-trip context, see our <a href="/cefalu-car-rental-faq" className="text-primary underline hover:text-accent">Cefalù car rental FAQ</a> or the <a href="/driving-in-cefalu" className="text-primary underline hover:text-accent">ZTL and driving guide</a>.</p>
+        <p className="text-gray-700 leading-relaxed">For pre-trip context, see our <a href="/cefalu-car-rental-faq/" className="text-primary underline hover:text-accent">Cefalù car rental FAQ</a> or the <a href="/driving-in-cefalu/" className="text-primary underline hover:text-accent">ZTL and driving guide</a>.</p>
       </section>
     </Layout>
   );
