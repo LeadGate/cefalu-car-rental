@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 
 const footerLinks = [
-  { label: "PMO Pickup", path: "/cefalu-airport-car-rental" },
-  { label: "ZTL & Driving", path: "/driving-in-cefalu" },
-  { label: "Parking", path: "/parking-in-cefalu" },
-  { label: "Day Trips", path: "/day-trips-from-cefalu" },
-  { label: "FAQ", path: "/cefalu-car-rental-faq" },
-  { label: "Contact", path: "/contact" },
-  { label: "Privacy Policy", path: "/privacy-policy" },
-  { label: "About", path: "/about" },
+  { label: "PMO Pickup", path: "/cefalu-airport-car-rental/" },
+  { label: "ZTL & Driving", path: "/driving-in-cefalu/" },
+  { label: "Parking", path: "/parking-in-cefalu/" },
+  { label: "Day Trips", path: "/day-trips-from-cefalu/" },
+  { label: "FAQ", path: "/cefalu-car-rental-faq/" },
+  { label: "Contact", path: "/contact/" },
+  { label: "Privacy Policy", path: "/privacy-policy/" },
+  { label: "About", path: "/about/" },
 ];
 
 const Footer = () => (

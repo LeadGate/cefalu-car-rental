@@ -3,13 +3,13 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const navItems = [
-  { label: "PMO Pickup", path: "/cefalu-airport-car-rental" },
-  { label: "ZTL & Driving", path: "/driving-in-cefalu" },
-  { label: "Parking", path: "/parking-in-cefalu" },
-  { label: "Day Trips", path: "/day-trips-from-cefalu" },
-  { label: "FAQ", path: "/cefalu-car-rental-faq" },
-  { label: "Contact", path: "/contact" },
-  { label: "About", path: "/about" },
+  { label: "PMO Pickup", path: "/cefalu-airport-car-rental/" },
+  { label: "ZTL & Driving", path: "/driving-in-cefalu/" },
+  { label: "Parking", path: "/parking-in-cefalu/" },
+  { label: "Day Trips", path: "/day-trips-from-cefalu/" },
+  { label: "FAQ", path: "/cefalu-car-rental-faq/" },
+  { label: "Contact", path: "/contact/" },
+  { label: "About", path: "/about/" },
 ];
 
 const Header = () => {
