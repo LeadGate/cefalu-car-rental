@@ -1,8 +1,10 @@
 """Careful About.tsx cleanup — preserve all content, strip only trailing CTAs."""
+import os
 import re
 from pathlib import Path
 
-p = Path("D:/CLAUDE/mentat/cefalu-build/src/pages/About.tsx")
+ROOT = Path(__file__).parent
+p = Path(os.environ.get("ABOUT_TSX", str(ROOT / "src" / "pages" / "About.tsx")))
 s = p.read_text(encoding="utf-8")
 orig = s
 

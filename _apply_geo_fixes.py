@@ -1,9 +1,10 @@
 """Apply 4 GEO audit fixes for cefalu-car-rental.com."""
+import os
 import re
 from pathlib import Path
 
-ROOT = Path("D:/CLAUDE/mentat/cefalu-build")
-CONTENT = Path("D:/CLAUDE/mentat/vault/inbox/niches/Italy/Cefalu/Copywriting")
+ROOT = Path(os.environ.get("ROOT", str(Path(__file__).parent)))
+CONTENT = Path(os.environ.get("CONTENT", str(ROOT / "content" / "Copywriting")))
 
 # === FIX 1: robots.txt — explicit AI bot allows ===
 ai_bots = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "anthropic-ai",
