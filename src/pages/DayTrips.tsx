@@ -6,6 +6,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Section from "@/components/Section";
 import ImageDivider from "@/components/ImageDivider";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
+import { Link } from "react-router-dom";
 import { Car, MapPin, Shield } from "lucide-react";
 
 const DayTrips = () => {
@@ -148,6 +149,7 @@ const DayTrips = () => {
             <li><strong>Catania CTA:</strong> Better if your route also includes eastern Sicily.</li>
             <li><strong>Trapani TPS / Comiso CIY:</strong> More relevant for western or southeastern island itineraries.</li>
           </ul>
+          <p className="text-gray-700 mb-4 leading-relaxed">If that eastern Sicily leg includes the volcano, it pays to plan the <Link to="/driving-to-mount-etna-from-taormina/" className="text-primary underline hover:text-accent">drive up to Mount Etna from Taormina</Link> before you set off, because the southern (Rifugio Sapienza) and northern (Piano Provenzana) approaches need very different timing and parking.</p>
       </Section>
 
       <Section
