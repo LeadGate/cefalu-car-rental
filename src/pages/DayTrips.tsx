@@ -7,6 +7,7 @@ import Section from "@/components/Section";
 import ImageDivider from "@/components/ImageDivider";
 import { InfoBox, WarningBox } from "@/components/InfoBox";
 import { Link } from "react-router-dom";
+import DataTable from "@/components/DataTable";
 import { Car, MapPin, Shield } from "lucide-react";
 
 const DayTrips = () => {
@@ -136,11 +137,15 @@ const DayTrips = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">A Cefalù rental should match the road, not just the price, because a mountain loop and a Palermo run need different comfort levels, different luggage space, and different insurance choices. If you collect the car at <a href="/cefalu-airport-car-rental/" className="text-primary underline hover:text-accent">PMO airport</a> Falcone-Borsellino, remember that Drivalia’s kiosk is at Arrival Hall Level 0 at PMO, Goldcar also operates at PMO, and other operators commonly available in Sicily include Hertz Italiana, Avis Budget Italia, Europcar, Locauto, Noleggiare, Centauro, Green Motion, Maggiore, Smile Rent, Joyrent, Italy Car Rent, Karym Rent, Kefatur, Sc Rental Car, NGA Cefalù, Stress Free Car Rental, and Safe Car Rental Cefalù in Cortile O 1.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> If you land at PMO, compare preauthorisation rules before you confirm the booking, because a zero excess policy and a full coverage policy are not always identical, especially when CDW, SCDW, or FDW are sold as separate packages.</p></InfoBox>
           <WarningBox><p>⚠️ <strong>Warning:</strong> A “zero excess” offer can still contain a franchise clause or a vessatory clause under “Codice del Consumo” art. 33 c.1, so read the contract before you accept roadside extras or premium insurance.</p></WarningBox>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Use case | Best model | Why it fits | Typical advantage |</p>
-<p className="text-gray-700 mb-4 leading-relaxed">| Cefalù old town and short coastal trips | Fiat 500, Toyota Aygo, Lancia Ypsilon | Small footprint for Corso Ruggero, Via Vittorio Emanuele, and parking near Piazza Duomo | Easier parking and lower daily rental cost |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Madonie mountain day trip | Fiat Panda, VW T-Cross, Fiat 500 Cabrio | Better visibility and manageable size on SP9 and SP54 bends | More confidence on steep sections |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Group day trip or airport transfer | Renault Trafic, Ford Transit Connect | More seats and luggage space for families or mixed airport pickups | Fewer cars needed for 6–9 passengers |</p>
-          <p className="text-gray-700 mb-4 leading-relaxed">| Premium coastal drive | Audi Q3, Peugeot SW | More comfort on long Palermo or coast routes | Better ride quality on longer routes |</p>
+          <DataTable
+            headers={["Use case", "Best model", "Why it fits", "Typical advantage"]}
+            rows={[
+              ["Cefalù old town and short coastal trips", "Fiat 500, Toyota Aygo, Lancia Ypsilon", "Small footprint for Corso Ruggero, Via Vittorio Emanuele, and parking near Piazza Duomo", "Easier parking and lower daily rental cost"],
+              ["Madonie mountain day trip", "Fiat Panda, VW T-Cross, Fiat 500 Cabrio", "Better visibility and manageable size on SP9 and SP54 bends", "More confidence on steep sections"],
+              ["Group day trip or airport transfer", "Renault Trafic, Ford Transit Connect", "More seats and luggage space for families or mixed airport pickups", "Fewer cars needed for 6–9 passengers"],
+              ["Premium coastal drive", "Audi Q3, Peugeot SW", "More comfort on long Palermo or coast routes", "Better ride quality on longer routes"],
+            ]}
+          />
           <p className="text-gray-700 mb-4 leading-relaxed">Bringo, based in Carini, PA, operates with P.IVA 07307610829, and Safe Car Rental Cefalù lists Cortile O 1 plus the phone numbers +39 380 787 1992 and +39 345 820 1316 with booking@screntalcar.com. AFFITTULA on Via Roma 109 can be reached at +39 0921 820124, while Rent Me Now! is G.F.C. Noleggio on Via Giubileo Magno 15, reachable at +39 388 775 5781, which makes local pickup options more concrete than generic “delivery available” wording.</p>
           <h3 className="text-xl font-bold mt-6 mb-3">Airport access if you are not starting in Cefalù</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">PMO is the closest major airport for Cefalù trips, while Catania CTA, Trapani TPS, and Comiso CIY are useful if your Sicily itinerary starts elsewhere. PMO is also where travelers often connect with the Punta Raisi station area, and that matters because airport collection affects the first hour of driving more than the headline price.</p>

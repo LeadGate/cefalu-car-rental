@@ -5,3 +5,5 @@ dist/
 *.log
 .vercel/
 .netlify/
+__pycache__/
+_zipdeploy.py
