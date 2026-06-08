@@ -41,7 +41,6 @@ const Contact = () => {
         title="Contact Cefalu Car Rental | Get in Touch"
         description="Have a question about car rental in Cefalu? Contact Cefalu Car Rental for assistance."
         canonical="https://cefalu-car-rental.com/contact"
-        jsonLd={[{ "@context": "https://schema.org", "@type": "WebPage", "name": "Contact Cefalu Car Rental", "url": "https://cefalu-car-rental.com/contact" }]}
       />
 
       <Section>

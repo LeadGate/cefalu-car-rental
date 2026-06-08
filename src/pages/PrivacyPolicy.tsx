@@ -12,12 +12,6 @@ const PrivacyPolicy = () => {
         description="Privacy policy for Cefalu Car Rental. Learn how we handle your data and protect your privacy."
         canonical="https://cefalu-car-rental.com/privacy-policy"
         noindex
-        jsonLd={[{
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "Privacy Policy | Cefalu Car Rental",
-          "url": "https://cefalu-car-rental.com/privacy-policy"
-        }]}
       />
 
       <Breadcrumbs items={[{ label: "Privacy Policy" }]} />

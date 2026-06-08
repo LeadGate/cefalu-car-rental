@@ -58,7 +58,6 @@ const DrivingGuide = () => {
         title="Cefalù ZTL & Driving Guide 2026 | Cefalù Car Rental"
         description="You’ve booked your rental car and want to reach Cefalù old town, the UNESCO-listed cathedral area, and the Lungomare Giuseppe Giardina without a penalty"
         canonical="https://cefalu-car-rental.com/driving-in-cefalu"
-        jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
       <Breadcrumbs items={[{ label: "Driving Tips" }]} />
