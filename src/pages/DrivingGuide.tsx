@@ -57,7 +57,7 @@ const DrivingGuide = () => {
       <SEOHead
         title="Cefalù ZTL & Driving Guide 2026 | Cefalù Car Rental"
         description="You’ve booked your rental car and want to reach Cefalù old town, the UNESCO-listed cathedral area, and the Lungomare Giuseppe Giardina without a penalty"
-        canonical="https://cefalu-car-rental.com/driving-in-cefalu"
+        canonical="https://cefalu-car-rental.com/driving-in-cefalu/"
       />
 
       <Breadcrumbs items={[{ label: "Driving Tips" }]} />

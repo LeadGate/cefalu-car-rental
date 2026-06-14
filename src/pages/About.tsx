@@ -55,7 +55,7 @@ const About = () => {
       <SEOHead
         title="About Cefalù-Car-Rental.com | Cefalu Car Rental"
         description="Cefalù-Car-Rental.com is a comparison site for car hire in Cefalù, with a practical focus on pricing, insurance, and pickup logistics for travellers"
-        canonical="https://cefalu-car-rental.com/about"
+        canonical="https://cefalu-car-rental.com/about/"
       />
 
       <Breadcrumbs items={[{ label: "About" }]} />

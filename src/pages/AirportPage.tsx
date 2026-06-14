@@ -58,7 +58,7 @@ const AirportPage = () => {
       <SEOHead
         title="PMO Airport Pickup to Cefalù | Cefalù Car Rental"
         description="Landing at Palermo Airport PMO — Falcone-Borsellino Airport, also called Punta Raisi — and driving directly to Cefalù is the fastest way to start a"
-        canonical="https://cefalu-car-rental.com/cefalu-airport-car-rental"
+        canonical="https://cefalu-car-rental.com/cefalu-airport-car-rental/"
       />
 
       <Breadcrumbs items={[{ label: "Airport" }]} />

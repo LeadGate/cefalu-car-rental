@@ -144,7 +144,7 @@ const FAQ = () => {
       <SEOHead
         title="Cefalù Car Rental FAQ — 12 Questions | Car Rental"
         description="Cefalù car rental works best when you split the trip into two parts: walk the UNESCO-listed old town on foot, then use a car for the wider island. In the"
-        canonical="https://cefalu-car-rental.com/cefalu-car-rental-faq"
+        canonical="https://cefalu-car-rental.com/cefalu-car-rental-faq/"
       />
 
       <Breadcrumbs items={[{ label: "FAQ" }]} />

@@ -58,7 +58,7 @@ const DayTrips = () => {
       <SEOHead
         title="Cefalù Day Trips by Car | Cefalù Car Rental"
         description="You’ve chosen Cefalù as your base, and that choice works because Cefalù sits between the “Madonie” mountains and the “Tirreno coast”. This guide answers"
-        canonical="https://cefalu-car-rental.com/day-trips-from-cefalu"
+        canonical="https://cefalu-car-rental.com/day-trips-from-cefalu/"
       />
 
       <Breadcrumbs items={[{ label: "Day Trips" }]} />

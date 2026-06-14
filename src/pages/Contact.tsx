@@ -40,7 +40,7 @@ const Contact = () => {
       <SEOHead
         title="Contact Cefalu Car Rental | Get in Touch"
         description="Have a question about car rental in Cefalu? Contact Cefalu Car Rental for assistance."
-        canonical="https://cefalu-car-rental.com/contact"
+        canonical="https://cefalu-car-rental.com/contact/"
       />
 
       <Section>

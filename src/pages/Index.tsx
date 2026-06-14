@@ -56,7 +56,7 @@ const Index = () => {
       <SEOHead
         title="Cefalu Car Rental — Compare Deals | Cefalu Car Rental"
         description="Welcome to Cefalù, where a car turns a beach break into a real Sicily road trip. A Cefalù car rental lets you reach the Madonie, the SS113 coastal road,"
-        canonical="https://cefalu-car-rental.com"
+        canonical="https://cefalu-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema]}
       />
 

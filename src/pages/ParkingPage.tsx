@@ -58,7 +58,7 @@ const ParkingInCefalWhereHowMuchHowLong = () => {
       <SEOHead
         title="Cefalù Parking 2026: Tariffs & Free Lots | Cefalù Car Rental"
         description="Parking in Cefalù is easiest if you treat the historic center as a no-drive zone, choose a lot before you reach the beach, and keep a backup plan for"
-        canonical="https://cefalu-car-rental.com/parking-in-cefalu"
+        canonical="https://cefalu-car-rental.com/parking-in-cefalu/"
       />
 
       <Breadcrumbs items={[{ label: "Parking" }]} />
