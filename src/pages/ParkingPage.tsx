@@ -46,7 +46,7 @@ const ParkingInCefalWhereHowMuchHowLong = () => {
       "url": "https://cefalu-car-rental.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://cefalu-car-rental.com/favicon-512x512.png"
+        "url": "https://cefalu-car-rental.com/favicon-512.png"
       }
     },
     "mainEntityOfPage": "https://cefalu-car-rental.com/parking-in-cefalu",

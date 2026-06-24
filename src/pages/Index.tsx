@@ -37,7 +37,7 @@ const Index = () => {
     "@type": "Organization",
     "name": "Cefalu Car Rental",
     "url": "https://cefalu-car-rental.com",
-    "logo": "https://cefalu-car-rental.com/favicon-512x512.png",
+    "logo": "https://cefalu-car-rental.com/favicon-512.png",
     "description": "Independent car rental comparison guide for Cefalu. Compare deals from local and international providers.",
     "areaServed": {
       "@type": "Place",
