@@ -68,7 +68,7 @@ const DrivingGuide = () => {
         image="/4.webp"
         imageAlt="Car rental in Cefalu"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
     <AffiliateWidget />
 

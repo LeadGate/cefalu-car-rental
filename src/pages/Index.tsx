@@ -66,10 +66,10 @@ const Index = () => {
         image="/1.webp"
         imageAlt="Car rental in Cefalu"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
 
-      <AffiliateWidget id="compare" />
+      <AffiliateWidget />
 
       <Section
         icon={<Car className="w-6 h-6" />}
