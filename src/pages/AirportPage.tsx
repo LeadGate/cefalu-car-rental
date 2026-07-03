@@ -204,7 +204,7 @@ const AirportPage = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> Compare pickup at PMO, a town office near Piazza Marina or Via Vittorio Emanuele, and a broker quote from Auto Europe before booking, because the cheapest daily rate is not always the lowest total once deposit, tolls, and parking are included.</p></InfoBox>
       </Section>
       <div className="flex justify-center py-16 mt-8">
-        <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
+        <a href="/#compare-cars" className="cta-button">Compare Car Rental Deals</a>
       </div>
     </Layout>
   );

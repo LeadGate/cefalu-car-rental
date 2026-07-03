@@ -184,7 +184,7 @@ const DrivingGuide = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">If you want a smoother start to your trip, compare pickup options on <a href="/cefalu-airport-car-rental/" className="text-primary underline hover:text-accent">the Palermo airport guide</a>, review <a href="/parking-in-cefalu/" className="text-primary underline hover:text-accent">parking in Cefalù</a>, and then choose the car that matches your route and luggage.</p>
       </Section>
       <div className="flex justify-center pb-12">
-        <a href="/#compare" className="cta-button">Compare Car Rental Deals</a>
+        <a href="/#compare-cars" className="cta-button">Compare Car Rental Deals</a>
       </div>
     </Layout>
   );
