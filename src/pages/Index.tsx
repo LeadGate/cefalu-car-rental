@@ -51,18 +51,51 @@ const Index = () => {
     }
   };
 
+  const faqSchema =
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is it better to rent in PMO or in Cefalù town?",
+        "acceptedAnswer": { "@type": "Answer", "text": "PMO is usually better for price and choice, while Cefalù town is better only if you want to skip airport pickup logistics. Palermo Airport often has more categories, more competition, and easier same-day collection, whereas town offices can have fewer cars and narrower hours. If your flight lands late, verify the desk closing time first." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a credit card for car rental in Cefalù?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A credit card in the main driver's name is still the most widely accepted form of preauthorisation. Some suppliers accept debit cards, but they often require full coverage, a larger deposit, or stricter paperwork. If you only have a debit card, confirm the policy in writing before you travel." }
+      },
+      {
+        "@type": "Question",
+        "name": "What insurance should I choose for Sicily?",
+        "acceptedAnswer": { "@type": "Answer", "text": "For most visitors, SCDW or full coverage with zero excess is the simplest option. That structure lowers the excess/deductible and reduces the risk of a surprise charge at return, especially when parking near the old town or driving through busy coastal roads. The caveat is that glass, tyres, underbody, and roof damage may still have exclusions unless FDW is explicitly included." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is parking difficult in Cefalù?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Parking is tight near Cefalù old town, Piazza Duomo, Corso Ruggero, and the Rocca, so waterfront or private parking is usually easier. The Lungomare Giuseppe Giardina is the common public option, but rates and rules change by zone and season. If you are staying in a central hotel, ask whether the property has reserved spaces." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I drive to the Madonie and the coast in one trip?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, and a compact car is often enough for both routes. The SS113 coastal road works well for beach stops, while the SP9 mountain road is better for the Madonie villages and scenic inland drives. Check fuel and mileage limits if you plan a full day route." }
+      }
+    ]
+  };
+
   return (
     <Layout>
       <SEOHead
         title="Cefalu Car Rental — Compare Deals | Cefalu Car Rental"
-        description="Welcome to Cefalù, where a car turns a beach break into a real Sicily road trip. A Cefalù car rental lets you reach the Madonie, the SS113 coastal road,"
+        description="Compare Cefalù car rental: live Palermo (PMO) hub prices from €42/day (7 Jul 2026), town operators, SS113 and Madonie driving, ZTL rules, insurance and excess."
         canonical="https://cefalu-car-rental.com/"
-        jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema]}
+        jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema, faqSchema]}
       />
 
       <HeroSection
         title="Cefalù Car Rental: Smarter, Clearer, Better Value"
-        subtitle={<><p>Welcome to Cefalù, where a car turns a beach break into a real Sicily road trip. A Cefalù car rental lets you reach the Madonie, the SS113 coastal road, and the villages above the coast on your own timetable.</p></>}
+        subtitle={<><p>A Cefalù car rental turns a beach break into a real Sicily road trip — the Madonie, the SS113 coastal road, and the villages above the coast on your own timetable. Cefalù itself has no aggregator city listing, so cars come from town operators or from the wider Palermo (PMO) hub. Priced this morning, 7 July 2026: 12 live PMO offers from €42.08/day (Peugeot 208), median €52.79/day.</p></>}
         image="/1.webp"
         imageAlt="Car rental in Cefalu"
         ctaText="Compare Car Rental Deals"
@@ -117,7 +150,24 @@ const Index = () => {
         icon={<Car className="w-6 h-6" />}
         title="How to find the cheapest honest deal"
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">The lowest published price is not always the cheapest total cost. To keep the final bill under control, book early, compare town and airport pickup, and read the fuel and mileage rules before you pay.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">The lowest published price is not always the cheapest total cost. To keep the final bill under control, book early, compare town and airport pickup, and read the fuel and mileage rules before you pay. Here is what the market actually showed on 7 July 2026:</p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full border-collapse text-sm border border-gray-200">
+              <thead>
+                <tr className="bg-primary text-white">
+                  <th className="p-3 text-left border-b">Pickup option</th>
+                  <th className="p-3 text-left border-b">Live example (7 July 2026)</th>
+                  <th className="p-3 text-left border-b">Booking note</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-white"><td className="p-3 border-b font-semibold">Palermo (PMO) hub — cheapest live</td><td className="p-3 border-b">€42.08/day — Peugeot 208</td><td className="p-3 border-b">12 aggregator offers; median €52.79/day</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 border-b font-semibold">PMO hub — top end</td><td className="p-3 border-b">€129.50/day</td><td className="p-3 border-b">Automatics and SUVs price highest in July</td></tr>
+                <tr className="bg-white"><td className="p-3 border-b font-semibold">Cefalù town operators</td><td className="p-3 border-b">Quote by phone</td><td className="p-3 border-b">Safe Car Rental, AFFITTULA, Rent Me Now! — smaller fleets, book ahead</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 border-b font-semibold">Insurance add-ons</td><td className="p-3 border-b">SCDW / zero excess</td><td className="p-3 border-b">A €38/day compact can become ~€61/day once cover is added</td></tr>
+              </tbody>
+            </table>
+          </div>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
             <li><strong>Book ahead:</strong> In July and August, the same category can cost far more at the desk than it does 30–60 days before arrival.</li>
             <li><strong>Choose full-to-full fuel:</strong> A full tank in, full tank out policy is usually the simplest way to avoid refuelling markups.</li>
@@ -146,16 +196,16 @@ const Index = () => {
         icon={<Car className="w-6 h-6" />}
         title="Cefalù rental FAQ"
       >
-          <p className="text-gray-700 mb-4 leading-relaxed"><strong>Q: Is it better to rent in PMO or in Cefalù town?</strong></p>
-          <p className="text-gray-700 mb-4 leading-relaxed">A: PMO is usually better for price and choice, while Cefalù town is better only if you want to skip airport pickup logistics. Palermo Airport often has more categories, more competition, and easier same-day collection, whereas town offices can have fewer cars and narrower hours. If your flight lands late, verify the desk closing time first.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed"><strong>Q: Do I need a credit card for car rental in Cefalù?</strong></p>
-          <p className="text-gray-700 mb-4 leading-relaxed">A: A credit card in the main driver’s name is still the most widely accepted form of preauthorisation. Some suppliers accept debit cards, but they often require full coverage, a larger deposit, or stricter paperwork. If you only have a debit card, confirm the policy in writing before you travel.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed"><strong>Q: What insurance should I choose for Sicily?</strong></p>
-          <p className="text-gray-700 mb-4 leading-relaxed">A: For most visitors, SCDW or full coverage with zero excess is the simplest option. That structure lowers the excess/deductible and reduces the risk of a surprise charge at return, especially when parking near the old town or driving through busy coastal roads. The caveat is that glass, tyres, underbody, and roof damage may still have exclusions unless FDW is explicitly included.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed"><strong>Q: Is parking difficult in Cefalù?</strong></p>
-          <p className="text-gray-700 mb-4 leading-relaxed">A: Parking is tight near Cefalù old town, Piazza Duomo, Corso Ruggero, and the Rocca, so waterfront or private parking is usually easier. The Lungomare Giuseppe Giardina is the common public option, but rates and rules change by zone and season. If you are staying in a central hotel, ask whether the property has reserved spaces.</p>
-          <p className="text-gray-700 mb-4 leading-relaxed"><strong>Q: Can I drive to the Madonie and the coast in one trip?</strong></p>
-          <p className="text-gray-700 mb-4 leading-relaxed">A: Yes, and a compact car is often enough for both routes. The SS113 coastal road works well for beach stops, while the SP9 mountain road is better for the Madonie villages and scenic inland drives. Check fuel and mileage limits if you plan a full day route.</p>
+          <h3 className="text-xl font-bold mt-6 mb-3">Is it better to rent in PMO or in Cefalù town?</h3>
+          <p className="text-gray-700 mb-4 leading-relaxed">PMO is usually better for price and choice, while Cefalù town is better only if you want to skip airport pickup logistics. Palermo Airport often has more categories, more competition, and easier same-day collection, whereas town offices can have fewer cars and narrower hours. If your flight lands late, verify the desk closing time first.</p>
+          <h3 className="text-xl font-bold mt-6 mb-3">Do I need a credit card for car rental in Cefalù?</h3>
+          <p className="text-gray-700 mb-4 leading-relaxed">A credit card in the main driver’s name is still the most widely accepted form of preauthorisation. Some suppliers accept debit cards, but they often require full coverage, a larger deposit, or stricter paperwork. If you only have a debit card, confirm the policy in writing before you travel.</p>
+          <h3 className="text-xl font-bold mt-6 mb-3">What insurance should I choose for Sicily?</h3>
+          <p className="text-gray-700 mb-4 leading-relaxed">For most visitors, SCDW or full coverage with zero excess is the simplest option. That structure lowers the excess/deductible and reduces the risk of a surprise charge at return, especially when parking near the old town or driving through busy coastal roads. The caveat is that glass, tyres, underbody, and roof damage may still have exclusions unless FDW is explicitly included.</p>
+          <h3 className="text-xl font-bold mt-6 mb-3">Is parking difficult in Cefalù?</h3>
+          <p className="text-gray-700 mb-4 leading-relaxed">Parking is tight near Cefalù old town, Piazza Duomo, Corso Ruggero, and the Rocca, so waterfront or private parking is usually easier. The Lungomare Giuseppe Giardina is the common public option, but rates and rules change by zone and season. If you are staying in a central hotel, ask whether the property has reserved spaces.</p>
+          <h3 className="text-xl font-bold mt-6 mb-3">Can I drive to the Madonie and the coast in one trip?</h3>
+          <p className="text-gray-700 mb-4 leading-relaxed">Yes, and a compact car is often enough for both routes. The SS113 coastal road works well for beach stops, while the SP9 mountain road is better for the Madonie villages and scenic inland drives. Check fuel and mileage limits if you plan a full day route.</p>
       </Section>
 
       <Section
