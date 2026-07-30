@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
   return (
     <Layout>
       <SEOHead
-        title="Privacy Policy | Cefalu Car Rental"
+        title="Privacy Policy — Cefalu Car Rental"
         description="Privacy policy for Cefalu Car Rental. Learn how we handle your data and protect your privacy."
         canonical="https://cefalu-car-rental.com/privacy-policy/"
       />

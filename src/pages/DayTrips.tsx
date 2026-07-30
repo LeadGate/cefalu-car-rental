@@ -56,7 +56,7 @@ const DayTrips = () => {
   return (
     <Layout>
       <SEOHead
-        title="Cefalù Day Trips by Car | Cefalù Car Rental"
+        title="Best Day Trips from Cefalù by Car: Madonie, Palermo & Coast"
         description="You’ve chosen Cefalù as your base, and that choice works because Cefalù sits between the “Madonie” mountains and the “Tirreno coast”. This guide answers"
         canonical="https://cefalu-car-rental.com/day-trips-from-cefalu/"
       />

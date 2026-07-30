@@ -20,7 +20,7 @@
   },
   "/cefalu-airport-car-rental/": {
     "article": {
-      "headline": "Palermo Airport Car Rental & Drive to Cefalù",
+      "headline": "PMO Airport Pickup to Cefalù | Cefalù Car Rental",
       "description": "Rent at Falcone-Borsellino Airport (PMO) and reach Cefalù in 60-70 min via the A20 toll motorway; pickup desks are in-terminal or via shuttle from off-site depots.",
       "image": "https://cefalu-car-rental.com/og-image.png",
       "wordCount": 1686,
@@ -114,7 +114,7 @@
   },
   "/parking-in-cefalu/": {
     "article": {
-      "headline": "Parking in Cefalù 2026: Lots, Tariffs & Free Spots",
+      "headline": "Cefalù Parking 2026: Tariffs & Free Lots | Cefalù Car Rental",
       "description": "The Centro Storico is ZTL-protected under Codice della Strada art. 7 and 135; paid lots include Lungomare G. Giardina, Parcheggio Dafne, and Parcheggio del Porto.",
       "image": "https://cefalu-car-rental.com/og-image.png",
       "wordCount": 1900,
@@ -130,5 +130,11 @@
       "wordCount": 800,
       "body": "Privacy Policy Information We Collect Third-Party Links Privacy Policy Your privacy matters to us. This page outlines how Cefalu Car Rental collects, uses, and protects your information. Information We Collect We do not collect personal data directly. When you use our comparison widget to search for or book a rental car, your data is processed by our affiliate partners according to their own privacy policies. This website may use cookies for analytics and to improve your browsing experience. Third-party services embedded on this site (such as booking widgets) may also set cookies. You can manage cookie preferences in your browser settings. We may use privacy-focused analytics tools to understand how visitors use our website. This data is aggregated and does not identify individual users. Third-Party Links Our website contains links to external sites. We are not responsible for the privacy practices or content of these third-party sites. If you have questions about this privacy policy, please contact us at info@cefalu-car-rental.com"
     }
+  },
+  "/contact/": {
+    "title": "Contact Cefalu Car Rental | Get in Touch"
+  },
+  "/about/": {
+    "title": "About Cefalù-Car-Rental.com | Cefalu Car Rental"
   }
 }
