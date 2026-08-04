@@ -12,7 +12,9 @@
       "url": "https://cefalu-car-rental.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://cefalu-car-rental.com/favicon-512x512.png"
+        "url": "https://cefalu-car-rental.com/favicon-512.png",
+        "width": 512,
+        "height": 512
       }
     },
     "datePublished": "2026-04-01",
