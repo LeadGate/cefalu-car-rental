@@ -54,7 +54,7 @@ const About = () => {
     <Layout>
       <SEOHead
         title="About Cefalù-Car-Rental.com | Cefalu Car Rental"
-        description="Cefalù-Car-Rental.com is a comparison site for car hire in Cefalù, with a practical focus on pricing, insurance, and pickup logistics for travellers"
+        description="Who we are: an independent car hire comparison for Cefalù. We check supplier terms, PMO airport pickups, A20 and A19 route costs, and ZTL parking rules."
         canonical="https://cefalu-car-rental.com/about/"
       />
 

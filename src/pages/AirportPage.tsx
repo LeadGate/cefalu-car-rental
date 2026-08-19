@@ -57,7 +57,7 @@ const AirportPage = () => {
     <Layout>
       <SEOHead
         title="PMO Airport Pickup to Cefalù | Cefalù Car Rental"
-        description="Landing at Palermo Airport PMO — Falcone-Borsellino Airport, also called Punta Raisi — and driving directly to Cefalù is the fastest way to start a"
+        description="Rent at Palermo Falcone-Borsellino (PMO) and reach Cefalù in about 60–70 minutes on the A20, from in-terminal desks or shuttle depots."
         canonical="https://cefalu-car-rental.com/cefalu-airport-car-rental/"
       />
 
