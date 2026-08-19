@@ -138,6 +138,7 @@
     "description": "Have a question about car rental in Cefalu? Contact Cefalu Car Rental for assistance."
   },
   "/about/": {
-    "title": "About Cefalù-Car-Rental.com | Cefalu Car Rental"
+    "title": "About Cefalù-Car-Rental.com | Cefalu Car Rental",
+    "description": "Who we are: an independent car hire comparison for Cefalù. We check supplier terms, PMO airport pickups, A20 and A19 route costs, and ZTL parking rules."
   }
 }

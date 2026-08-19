@@ -175,6 +175,17 @@ function patchHead(html, { slug, canonical, title, description, cfg, heroHref })
     `<meta name="twitter:title" content="${escAttr(title)}" />`,
     `    <meta name="twitter:title" content="${escAttr(title)}" />`,
   );
+  // boss-prerender marker — SEOHead.tsx looks for it and, when present, exits
+  // useEffect without touching canonical / description / og:url / JSON-LD. The
+  // wrapper already had that check; this file never printed the marker, so the
+  // client overwrote the prerendered head on every route. Half-recipe fixed
+  // 2026-08-19 — matches simport, the one site where the recipe was whole.
+  html = replaceOrInsert(
+    html,
+    /<meta name="boss-prerender" content="[^"]*"\s*\/?>/,
+    `<meta name="boss-prerender" content="1" />`,
+    `    <meta name="boss-prerender" content="1" />`,
+  );
   // Inject BreadcrumbList JSON-LD before </head>
   const crumbs = {
     '@context': 'https://schema.org',
@@ -293,6 +304,22 @@ if (!/<link rel="canonical"/.test(indexHtml)) {
   );
   fs.writeFileSync(homePath2, homePatched);
   console.log(`[prerender] patched home canonical -> ${homeCanonical}`);
+}
+
+
+// Homepage marker — the route loop above skips '/', so the marker has to be
+// written here as well. Without it SEOHead would keep ownership of the homepage
+// head while owning nothing on the other routes.
+{
+  const homeMarkPath = path.join(DIST, 'index.html');
+  const homeMarkHtml = fs.readFileSync(homeMarkPath, 'utf-8');
+  if (!/<meta name="boss-prerender"/.test(homeMarkHtml)) {
+    fs.writeFileSync(
+      homeMarkPath,
+      homeMarkHtml.replace(/<\/head>/, `    <meta name="boss-prerender" content="1" />\n  </head>`),
+    );
+    console.log('[prerender] marked homepage with boss-prerender');
+  }
 }
 
 console.log(`[prerender] generated ${count} per-route index.html files`);
