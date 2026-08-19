@@ -127,14 +127,15 @@
   "/privacy-policy/": {
     "article": {
       "headline": "Privacy Policy — Cefalu Car Rental",
-      "description": "Cefalu Car Rental does not collect personal data directly; bookings are processed by affiliate partners, and cookies may be used for analytics and browsing experience.",
+      "description": "Privacy policy for Cefalu Car Rental. Learn how we handle your data and protect your privacy.",
       "image": "https://cefalu-car-rental.com/og-image.png",
       "wordCount": 800,
       "body": "Privacy Policy Information We Collect Third-Party Links Privacy Policy Your privacy matters to us. This page outlines how Cefalu Car Rental collects, uses, and protects your information. Information We Collect We do not collect personal data directly. When you use our comparison widget to search for or book a rental car, your data is processed by our affiliate partners according to their own privacy policies. This website may use cookies for analytics and to improve your browsing experience. Third-party services embedded on this site (such as booking widgets) may also set cookies. You can manage cookie preferences in your browser settings. We may use privacy-focused analytics tools to understand how visitors use our website. This data is aggregated and does not identify individual users. Third-Party Links Our website contains links to external sites. We are not responsible for the privacy practices or content of these third-party sites. If you have questions about this privacy policy, please contact us at info@cefalu-car-rental.com"
     }
   },
   "/contact/": {
-    "title": "Contact Cefalu Car Rental | Get in Touch"
+    "title": "Contact Cefalu Car Rental | Get in Touch",
+    "description": "Have a question about car rental in Cefalu? Contact Cefalu Car Rental for assistance."
   },
   "/about/": {
     "title": "About Cefalù-Car-Rental.com | Cefalu Car Rental"

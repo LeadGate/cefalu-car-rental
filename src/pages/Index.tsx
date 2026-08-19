@@ -88,7 +88,7 @@ const Index = () => {
     <Layout>
       <SEOHead
         title="Cefalu Car Rental — Compare Deals | Cefalu Car Rental"
-        description="Compare Cefalù car rental: live Palermo (PMO) hub prices from €42/day (7 Jul 2026), town operators, SS113 and Madonie driving, ZTL rules, insurance and excess."
+        description="Cefalu Car Rental — independent comparison of car rental deals in Cefalu. Compare local and international providers, pickup points, and travel tips."
         canonical="https://cefalu-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema, faqSchema]}
       />

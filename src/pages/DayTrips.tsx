@@ -57,7 +57,7 @@ const DayTrips = () => {
     <Layout>
       <SEOHead
         title="Best Day Trips from Cefalù by Car: Madonie, Palermo & Coast"
-        description="You’ve chosen Cefalù as your base, and that choice works because Cefalù sits between the “Madonie” mountains and the “Tirreno coast”. This guide answers"
+        description="Reach Palermo in ~1 hour on the A20 toll route, explore the Madonie in 45-90 min on SP9 mountain roads, or cruise SS113 coastal towns in under an hour."
         canonical="https://cefalu-car-rental.com/day-trips-from-cefalu/"
       />
 
