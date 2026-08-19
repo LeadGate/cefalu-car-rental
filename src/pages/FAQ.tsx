@@ -143,7 +143,7 @@ const FAQ = () => {
     <Layout>
       <SEOHead
         title="Cefalù Car Rental FAQ: 12 Real Questions Answered"
-        description="Cefalù car rental works best when you split the trip into two parts: walk the UNESCO-listed old town on foot, then use a car for the wider island. In the"
+        description="FAQ covering pricing, pickup, ZTL fines under Codice della Strada, parking, and emergencies for renting a car in Cefalù UNESCO old town."
         canonical="https://cefalu-car-rental.com/cefalu-car-rental-faq/"
       />
 
