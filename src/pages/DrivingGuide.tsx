@@ -34,7 +34,7 @@ const DrivingGuide = () => {
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "The Definitive Guide to the Cefalù ZTL: Avoid Fines, Drive Smart (2024/2025)",
+    "headline": "The Definitive Guide to the Cefalù ZTL: Avoid Fines, Drive Smart",
     "description": "You’ve booked your rental car and want to reach Cefalù old town, the UNESCO-listed cathedral area, and the Lungomare Giuseppe Giardina without a penalty",
     "url": "https://cefalu-car-rental.com/driving-in-cefalu",
     "datePublished": "2026-05-02",
@@ -55,7 +55,7 @@ const DrivingGuide = () => {
   return (
     <Layout>
       <SEOHead
-        title="Cefalù ZTL Guide: Avoid Fines & Drive Smart 2024/2025"
+        title="Cefalù ZTL Guide: Avoid Fines & Drive Smart"
         description="The Cefalù ZTL is camera-enforced around Piazza Duomo and the UNESCO cathedral, so park outside the historic centre and walk in."
         canonical="https://cefalu-car-rental.com/driving-in-cefalu/"
       />
@@ -63,7 +63,7 @@ const DrivingGuide = () => {
       <Breadcrumbs items={[{ label: "Driving Tips" }]} />
 
       <HeroSection
-        title="The Definitive Guide to the Cefalù ZTL: Avoid Fines, Drive Smart (2024/2025)"
+        title="The Definitive Guide to the Cefalù ZTL: Avoid Fines, Drive Smart"
         subtitle={<><p>You’ve booked your rental car and want to reach Cefalù old town, the UNESCO-listed cathedral area, and the Lungomare Giuseppe Giardina without a penalty notice. The Cefalù ZTL is an automated limited-traffic zone enforced by cameras, and the practical rule is simple: park outside the historic center and walk in.</p></>}
         image="/4.webp"
         imageAlt="Car rental in Cefalu"

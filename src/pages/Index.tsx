@@ -87,7 +87,7 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead
-        title="Cefalu Car Rental — Compare Deals | Cefalu Car Rental"
+        title="Cefalu Car Rental — Compare Deals"
         description="Cefalu Car Rental — independent comparison of car rental deals in Cefalu. Compare local and international providers, pickup points, and travel tips."
         canonical="https://cefalu-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema, faqSchema]}
