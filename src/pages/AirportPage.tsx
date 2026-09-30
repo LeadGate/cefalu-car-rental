@@ -86,9 +86,9 @@ const AirportPage = () => {
             <li>Expect the rental desks to sit in one dedicated area, with the parking bays a 2–5 minute walk from the terminal.</li>
             <li>If you are collecting a Drivalia vehicle, the kiosk is typically on Arrival Hall Level 0 at PMO; the usual switchboard number is +39 091 6511393.</li>
           </ul>
-          <InfoBox><p>💡 <strong>Tip:</strong> If you are comparing airport pickup versus city pickup, Auto Europe as a broker can show PMO, Cefalù town, and Madonie options side by side, which helps when you want a Fiat Panda or Fiat 500 rather than a larger MPV.</p></InfoBox>
+          <InfoBox><p>💡 <strong>Tip:</strong> If you are comparing airport pickup versus city pickup, a broker can show PMO, Cefalù town, and Madonie options side by side, which helps when you want a Fiat Panda or Fiat 500 rather than a larger MPV.</p></InfoBox>
           <h3 className="text-xl font-bold mt-6 mb-3">Off-Site Rental Shuttles</h3>
-          <p className="text-gray-700 mb-4 leading-relaxed">Some budget operators — including Goldcar at PMO, Centauro, Green Motion, Noleggiare, Smile Rent, Joyrent, Italy Car Rent, and Stress Free Car Rental — may ask you to use a shuttle after landing.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">Some budget operators — including Goldcar at PMO, Centauro, Green Motion, Smile Rent, Joyrent, Italy Car Rent, and Stress Free Car Rental — may ask you to use a shuttle after landing.</p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
             <li>Exit the Arrivals terminal and look for the “Navetta Autonoleggio” signs.</li>
             <li>Walk to the designated pickup point just outside the terminal, often on the right-hand side after exit.</li>
@@ -201,7 +201,7 @@ const AirportPage = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">Cefalù airport car rental makes the most sense when you want to combine the historic centre, the beach, and inland day trips without relying on trains or buses.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">A rental car is especially useful if your trip includes the Madonie, Castelbuono, the coastal stretch toward Tusa and Pollina, or ferry connections for the Aeolian Islands via Milazzo port.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">If you are staying only in Cefalù old town, walking may be enough, but a car helps when your hotel is outside the centre, your flight arrives late at PMO, or you want to move between the SS113 coastal road and mountain villages on the same day.</p>
-          <InfoBox><p>💡 <strong>Tip:</strong> Compare pickup at PMO, a town office near Piazza Marina or Via Vittorio Emanuele, and a broker quote from Auto Europe before booking, because the cheapest daily rate is not always the lowest total once deposit, tolls, and parking are included.</p></InfoBox>
+          <InfoBox><p>💡 <strong>Tip:</strong> Compare pickup at PMO, a town office near Piazza Marina or Via Vittorio Emanuele, and a broker quote before booking, because the cheapest daily rate is not always the lowest total once deposit, tolls, and parking are included.</p></InfoBox>
       </Section>
       <div className="flex justify-center py-16 mt-8">
         <a href="/#compare-cars" className="cta-button">Compare Car Rental Deals</a>
