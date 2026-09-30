@@ -88,7 +88,7 @@ const AirportPage = () => {
           </ul>
           <InfoBox><p>💡 <strong>Tip:</strong> If you are comparing airport pickup versus city pickup, a broker can show PMO, Cefalù town, and Madonie options side by side, which helps when you want a Fiat Panda or Fiat 500 rather than a larger MPV.</p></InfoBox>
           <h3 className="text-xl font-bold mt-6 mb-3">Off-Site Rental Shuttles</h3>
-          <p className="text-gray-700 mb-4 leading-relaxed">Some budget operators — including Goldcar at PMO, Centauro, Green Motion, Noleggiare, Smile Rent, Joyrent, Italy Car Rent, and Stress Free Car Rental — may ask you to use a shuttle after landing.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">Some budget operators — including Goldcar at PMO, Centauro, Green Motion, Noleggiare, Smile Rent, Joyrent, and Italy Car Rent — may ask you to use a shuttle after landing.</p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-4">
             <li>Exit the Arrivals terminal and look for the “Navetta Autonoleggio” signs.</li>
             <li>Walk to the designated pickup point just outside the terminal, often on the right-hand side after exit.</li>
